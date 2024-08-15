@@ -30,13 +30,13 @@
     }
   },
   {
-    "name": "Food Website",
-    "desc": "Basic food website landing page built using HTML, CSS, SASS, Bootstrap and jQuery.",
-    "image": "foodwebsite",
+    "name": "Geek website design",
+    "desc": "Basic website design agency website developed while learning and practice code using basic web development technologies HTML5 and CSS3",
+    "image": "Website Design Agency",
     "category": "basicweb",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://github.com/keshavgangwar/Geek_website",
+      "code": "https://github.com/keshavgangwar/Geek_website"
     }
   }
 ]
