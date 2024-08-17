@@ -1,12 +1,12 @@
 [
   {
-    "name": "Bootstrap Portfolio",
-    "desc": "Portfolio built using HTML, CSS, Bootstrap, SASS and JavaScript. Customized Bootstrap using SCSS.",
-    "image": "bootstrapportfolio",
+    "name": "HCH Financial",
+    "desc": "HCH Financial is an online platform offering a variety of financial services, developed using basic web technologies",
+    "image": "hch_finance",
     "category": "basicweb",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://github.com/keshavgangwar/Finance-website",
+      "code": "https://github.com/keshavgangwar/Finance-website"
     }
   },
   {
@@ -32,11 +32,21 @@
   {
     "name": "Geek website design",
     "desc": "Basic website design agency website developed while learning and practice code using basic web development technologies HTML5 and CSS3",
-    "image": "Website Design Agency",
+    "image": "Geek",
     "category": "basicweb",
     "links": {
       "view": "https://github.com/keshavgangwar/Geek_website",
       "code": "https://github.com/keshavgangwar/Geek_website"
+    }
+  },
+  {
+    "name": "Rythm_Music",
+    "desc": "Rythm_music is a Python music player developed, using dearpygui, pygame for playback, and mutagen for metadata with JSON for data interchange.",
+    "image": "Rythm_music",
+    "category": "gui",
+    "links": {
+      "view": "https://github.com/keshavgangwar/Rythm_Music",
+      "code": "https://github.com/keshavgangwar/Rythm_Music"
     }
   }
 ]
