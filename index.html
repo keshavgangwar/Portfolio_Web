@@ -12,6 +12,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon -->
     <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init({
+            publicKey: "hrWB1H-Jeg2H0-rVi",
+          });
+      })();
+    </script>
     <title>Portfolio | Keshav Gangwar</title>
 </head>
 <body oncontextmenu="return false">
@@ -245,7 +255,7 @@
 <!-- experience section ends -->
 
 <!-- contact section starts -->
-<section class="contact" id="contact">
+<!-- <section class="contact" id="contact">
   
   <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
 
@@ -281,7 +291,41 @@
     </form>
   </div>
   </div>
+</section> -->
+<section class="contact" id="contact">
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+      <form id="contact-form">
+        <div class="form-group">
+          <div class="field">
+            <input type="text" name="name" placeholder="Name" required>
+            <i class='fas fa-user'></i>
+          </div>
+          <div class="field">
+            <input type="email" name="email" placeholder="Email" required>
+            <i class='fas fa-envelope'></i>
+          </div>
+          <div class="field">
+            <input type="text" name="phone" placeholder="Phone">
+            <i class='fas fa-phone-alt'></i>
+          </div>
+          <div class="message">
+            <textarea placeholder="Message" name="message" required></textarea>
+            <i class="fas fa-comment-dots"></i>
+          </div>
+        </div>
+        <div class="button-area">
+          <button type="submit">Submit <i class="fa fa-paper-plane"></i></button>
+        </div>
+      </form>
+    </div>
+  </div>
 </section>
+
 <!-- contact section ends -->
 
 
@@ -332,6 +376,8 @@
 
 
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!---Email CDN--->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <!-- jquery cdn -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -347,11 +393,6 @@
 
 <!-- scroll reveal anim -->
 <script src="https://unpkg.com/scrollreveal"></script>
-
-<script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
-    ></script>
 
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 

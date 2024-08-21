@@ -37,23 +37,35 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+// <!-- emailjs to mail contact form data -->
+emailjs.init("6ycAS4jzMLtJTHXNS");
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
-    });
-    // <!-- emailjs to mail contact form data -->
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+  event.preventDefault();
 
+  const name = this.name.value;
+  const email = this.email.value;
+  const phone = this.phone.value;
+  const message = this.message.value;
+
+  emailjs.send("service_wmm3r44", "template_j60u09y", {
+    from_name: name,
+    to_name: "Keshav",
+    phone: phone,
+    email: email,
+    message: message,
+    reply_to: email,
+  })
+  .then(function(response) {
+    alert('Message sent successfully!');
+  }, function(error) {
+    alert('Failed to send the message. Please try again later.');
+  });
+
+  this.reset();
+});
+
+// <!-- End of emailjs to mail contact form data -->
 });
 
 document.addEventListener('visibilitychange',
@@ -189,18 +201,6 @@ document.onkeydown = function (e) {
         return false;
     }
 }
-
-// start of tawk
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/66b866c50cca4f8a7a748137/1i5052tt4';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-// end of the chat
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
