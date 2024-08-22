@@ -58,7 +58,7 @@ document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
         document.title = "Experience | Portfolio Keshav Gangwar";
-        $("#favicon").attr("href","/assets/images/favicon.png");
+        $("#favicon").attr("href","/assets/images/logo.png");
     }
     else {
         document.title = "Come Back To Portfolio";

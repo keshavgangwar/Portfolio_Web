@@ -190,6 +190,7 @@ header .navbar ul li a:hover {
   flex-wrap: wrap;
   gap: 1.5rem;
   min-height: 100vh;
+  background-color: #F5F5DC;
   align-items: center;
 }
 .home #particles-js {

@@ -10,26 +10,6 @@
     }
   },
   {
-    "name": "Bootstrap Template",
-    "desc": "Basic website template built using HTML and Bootstrap.",
-    "image": "bootstraptemplate",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Foodicious",
-    "desc": "Basic food website landing page built using HTML, CSS and JavaScript.",
-    "image": "foodicious",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
     "name": "Geek website design",
     "desc": "Basic website design agency website developed while learning and practice code using basic web development technologies HTML5 and CSS3",
     "image": "Geek",
