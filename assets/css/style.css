@@ -332,14 +332,14 @@ header .navbar ul li a:hover {
 /* hero media queries starts*/
 @media (max-width: 450px) {
   .home .btn {
-    margin: 4rem 0;
+    margin: 2rem 0;
   }
   .socials {
-    margin-top: 12rem;
+    margin-top: 9rem;
   }
-/*   .home .image img {
-    margin-top: ;
-  } */
+  .home .content h2{
+    margin-top: 6rem;
+  }
   .home .content p {
     font-size: 2.2rem;
   }
