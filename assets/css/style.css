@@ -228,6 +228,7 @@ header .navbar ul li a:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 .home .content h2 {
+  margin-top: 4rem;
   font-size: 5rem;
   font-weight: 800;
   color: #002057;
@@ -316,7 +317,7 @@ header .navbar ul li a:hover {
   background-color: #0e0e0e;
 }
 .social-icons a.twitter:hover {
-  background-color: #00aced;
+  background-color: #0e0e0e;
 }
 .social-icons a.linkedin:hover {
   background-color: #007bb6;
